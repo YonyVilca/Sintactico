@@ -1,0 +1,8 @@
+CREAR TABLA orders (
+  id ENTERO NO NULO AUTOCREMENTO,
+  customer_id ENTERO NO NULO,
+  order_date FECHAHORA,
+  order_amount DECIMAL(10,2),
+  PRINCIPAL LLAVE (id),
+  FORANEA LLAVE (customer_id) REFERENCIA customers (id)
+);

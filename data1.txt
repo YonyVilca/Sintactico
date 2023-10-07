@@ -1,0 +1,6 @@
+CREAR PROCEDIMIENTO insert_customer
+COMO
+INICIO
+  INSERTAR DENTRO customers (name, age)
+  VALORES (usuario1, usuario2);
+FIN;

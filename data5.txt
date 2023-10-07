@@ -1,0 +1,1 @@
+OBTENER * CONTAR  DESDE customers DONDE country = USA;

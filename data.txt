@@ -1,0 +1,18 @@
+CREAR TABLA productos (
+  id INTERO NO NULO IDENTIDAD,
+  nombre CADENAVAR(255) NO NULO,
+  precio DECIMAL(10,2) NO NULO,
+  descripcion CADENAVAR(255) NULO
+);
+
+
+
+
+
+
+
+
+
+
+
+

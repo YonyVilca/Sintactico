@@ -1,0 +1,2 @@
+OBTENER CONTAR(DISTINTO product_id)
+DESDE products;
